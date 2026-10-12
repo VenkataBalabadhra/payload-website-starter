@@ -10,7 +10,8 @@ import {
 import React, { useState } from 'react'
 
 import { useTheme } from '..'
-import { themeIsValid, themeLocalStorageKey } from './types'
+import { themeIsValid } from '../types'
+import { themeLocalStorageKey } from './types'
 
 export const ThemeSelector: React.FC = () => {
   const { setTheme } = useTheme()
